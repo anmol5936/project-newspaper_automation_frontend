@@ -1,0 +1,110 @@
+/* Deliverer Components Styles */
+
+/* Form Styles */
+.form-container {
+  @apply max-w-lg mx-auto bg-white rounded-xl shadow-lg p-6 sm:p-8;
+}
+
+.form-title {
+  @apply text-2xl font-bold mb-6 text-gray-800 tracking-tight;
+}
+
+.form-group {
+  @apply mb-5;
+}
+
+.form-label {
+  @apply block text-gray-700 text-sm font-semibold mb-2;
+}
+
+.form-select {
+  @apply shadow-sm appearance-none border border-gray-300 rounded-lg w-full py-2.5 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all;
+}
+
+.form-error {
+  @apply text-red-600 text-xs italic mt-1.5;
+}
+
+/* Button Styles */
+.btn-primary {
+  @apply bg-blue-600 text-white py-2.5 px-6 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200;
+}
+
+.btn-secondary {
+  @apply bg-gray-600 text-white py-2.5 px-6 rounded-lg hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 transition-colors duration-200;
+}
+
+/* List Item Styles */
+.delivery-item {
+  @apply bg-white p-5 rounded-xl shadow-sm hover:shadow-lg transition-all duration-200 cursor-pointer mb-5;
+}
+
+.delivery-item-header {
+  @apply flex items-center justify-between gap-2;
+}
+
+.delivery-item-title {
+  @apply font-semibold text-gray-800 text-lg;
+}
+
+.delivery-item-address {
+  @apply text-sm text-gray-600 leading-relaxed;
+}
+
+.delivery-item-status {
+  @apply text-sm font-medium capitalize;
+}
+
+/* Status Colors */
+.status-delivered {
+  @apply text-green-600;
+}
+
+.status-failed {
+  @apply text-red-600;
+}
+
+.status-skipped {
+  @apply text-yellow-600;
+}
+
+.status-pending {
+  @apply text-blue-600;
+}
+
+/* Navigation Styles */
+.nav-link {
+  @apply flex items-center px-4 py-2.5 rounded-lg text-sm font-medium transition-colors duration-150;
+}
+
+.nav-link-active {
+  @apply bg-gray-900 text-white shadow-sm;
+}
+
+.nav-link-inactive {
+  @apply text-gray-300 hover:bg-gray-800 hover:text-white;
+}
+
+/* Footer Styles */
+.footer-link {
+  @apply text-sm text-gray-400 hover:text-gray-200 transition-colors duration-150;
+}
+
+/* Alert Styles */
+.alert-success {
+  @apply mb-5 p-4 bg-green-50 text-green-800 rounded-lg border border-green-200;
+}
+
+.alert-error {
+  @apply mb-5 p-4 bg-red-50 text-red-800 rounded-lg border border-red-200;
+}
+
+/* Loading States */
+.loading {
+  @apply opacity-60 cursor-not-allowed pointer-events-none;
+}
+
+/* Image Preview */
+.image-preview {
+  @apply max-w-full h-auto rounded-lg mt-3 border border-gray-200;
+}

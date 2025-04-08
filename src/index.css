@@ -1,0 +1,19 @@
+@import './styles/components/variables.css';
+@import './styles/components/customer.css';
+@import './styles/components/manager.css';
+@import './styles/components/deliverer.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Roboto', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-gray-50;
+    color: var(--gray-800);
+  }
+}
